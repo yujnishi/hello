@@ -1,1 +1,1 @@
-all: hello
+all: hello.so
