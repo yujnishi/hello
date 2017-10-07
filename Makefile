@@ -1,5 +1,5 @@
 all: hello.so
-	sudo yum search CUnit
+	which yum
 
 %.so: %.c
 	gcc -shared -fPIC -o $@ $<
