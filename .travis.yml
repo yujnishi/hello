@@ -6,4 +6,4 @@ script:
 sudo: true
 
 install:
-    - sudo apt-get install libcunit1-devl
+    - sudo apt-get install libcunitl-devl
