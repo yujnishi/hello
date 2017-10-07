@@ -1,4 +1,4 @@
 all: hello.so
 
 %.so: %.c
-	gcc -shared -o $@ $<
+	gcc -shared -fPIC -o $@ $<
