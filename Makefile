@@ -1,5 +1,5 @@
 all: hello.so
-	which yum
+	apt-cache search CUnit
 
 %.so: %.c
 	gcc -shared -fPIC -o $@ $<
