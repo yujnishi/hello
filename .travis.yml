@@ -6,4 +6,4 @@ script:
 sudo: true
 
 install:
-    - dpkg -l
+    - sudo apt-get install libcunit1-dev
