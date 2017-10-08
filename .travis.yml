@@ -5,5 +5,5 @@ script:
 
 sudo: true
 
-install:
-    - sudo apt-get install libcunit1-dev
+#install:
+#    - sudo apt-get install libcunit1-dev
