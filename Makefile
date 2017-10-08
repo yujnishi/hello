@@ -6,6 +6,6 @@ all: hello.so test
 
 test: test.c
 	ls /usr/lib/libcu*
-	gcc -L/usr/lib test.c -lcunit hello.so
+	gcc -L/usr/lib test.c -lcunit hello.so -Wl,-rpath=.
 	./a.out
 
