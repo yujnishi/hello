@@ -5,6 +5,6 @@ all: hello.so test
 	gcc -shared -fPIC -o $@ $<
 
 test: test.c
-	gcc -lcunit test.c hello.so
+	gcc -L/usr/local/lib -lcunit test.c hello.so
 	./a.out
 
