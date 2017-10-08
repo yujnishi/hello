@@ -1,5 +1,5 @@
-all: hello.so
-	apt-cache search CUnit
+all: hello.so test
+	# apt-cache search CUnit
 
 %.so: %.c
 	gcc -shared -fPIC -o $@ $<
