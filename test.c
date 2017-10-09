@@ -3,7 +3,7 @@
 #include <CUnit/Automated.h>
 
 void hello_test1(void) {
-    CU_ASSERT(hello("hoge") == 10);
+    CU_ASSERT_EQUAL(hello("hoge"),10);
 }
 
 int main() {
